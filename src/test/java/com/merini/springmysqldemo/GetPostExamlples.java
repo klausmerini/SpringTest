@@ -2,7 +2,7 @@ package com.merini.springmysqldemo;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.testng.annotations.Test;
+//import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 //import org.json.simple.JSONObject;
-import org.testng.annotations.Test;
+//import org.testng.annotations.Test;
 
 public class GetPostExamlples 
 {
@@ -19,7 +19,7 @@ public class GetPostExamlples
 	private String baseURI="https://reqres.in/api";
 	private String baseURI2= "https://gorest.co.in/public/v1/users";
 
-	@Test
+//	@Test
 	public void testGet ()
 	{
 		System.out.println();
@@ -32,7 +32,7 @@ public class GetPostExamlples
 			.log().all();
 	}
 	
-	@Test
+//	@Test
 	public void testPost ()
 	{
 		System.out.println();

@@ -19,20 +19,21 @@ public class ClassificacaoServiceImpl implements ClassificacaoService
 
 	@Override
 	public String createClassificacao(Classificacao classificacao) {
-		classificacaoRepository.save(classificacao);
+		Classificacao classificacaoRetorno = classificacaoRepository.save(classificacao);
+		
 		return "Success";
 	}
 
 	@Override
 	public Classificacao getClassificacao(Integer idClassificacao) {
-		// TODO Auto-generated method stub
+			System.out.println("idclassificacao - "+idClassificacao);
 		return classificacaoRepository.findById(idClassificacao).get();
 	}
 
 	@Override
 	public String updateClassificacao(Classificacao classificacao) {
 		classificacaoRepository.save(classificacao);
-		return null;
+		return "Success";
 	}
 
 	@Override
@@ -44,6 +45,12 @@ public class ClassificacaoServiceImpl implements ClassificacaoService
 	@Override
 	public List<Classificacao> getAllClassificacao() {
 		return classificacaoRepository.findAll();
+	}
+
+	@Override
+	public Classificacao getClassificacaoPeloNome(String nomeclassificacao) {
+		// TODO Auto-generated method stub
+		return classificacaoRepository.findByNomeclassificacao(nomeclassificacao).get(0);
 	}
 
 }

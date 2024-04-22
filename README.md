@@ -9,3 +9,5 @@ verbo POST :
 ![Captura de tela de 2024-04-22 19-26-06](https://github.com/klausmerini/SpringTest/assets/109608171/72e0a3fe-4720-4203-9ef5-1bfba9565c9d)
 verbo GET, no caso get todos :
 ![Captura de tela de 2024-04-22 19-26-22](https://github.com/klausmerini/SpringTest/assets/109608171/64211800-bcee-458b-816b-d692eaa439b9)
+verbo DELETE : 
+![Captura de tela de 2024-04-22 19-26-36](https://github.com/klausmerini/SpringTest/assets/109608171/bc1bd090-8f86-4896-890f-f2a47fb4a748)

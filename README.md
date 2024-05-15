@@ -1,3 +1,6 @@
+Teste de projeto Spring Boot.
+O projeto tem um acesso á banco de dados com JPA, É utilizado mock para os objetos repositóio e. 
+Testes das camadas de serviço, repositório, e controller, que, no caso, é a da API REST Assured. Utiliza-se as bibliotecas JUnit, mockito e assertJ. 
 Testes do repositório :
 
 ![Captura de tela de 2024-04-22 19-23-23](https://github.com/klausmerini/SpringTest/assets/109608171/eacea15c-f23c-4970-955e-267cc8a136c3)

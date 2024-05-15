@@ -1,5 +1,5 @@
 Teste de projeto Spring Boot.
-O projeto tem um acesso á banco de dados com JPA, É utilizado mock para os objetos repositóio e. 
+O projeto tem um acesso á banco de dados com JPA, seu objetivo é o gerenciamento de classificações, que serão utilicadas paa classificar listas, como por exemplo listas de compras. É utilizado mock para os objetos repositóio e classificação. 
 Testes das camadas de serviço, repositório, e controller, que, no caso, é a da API REST Assured. Utiliza-se as bibliotecas JUnit, mockito e assertJ. 
 Testes do repositório :
 
